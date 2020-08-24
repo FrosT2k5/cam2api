@@ -25,4 +25,7 @@ To enable cam2api, just open termux and type
 To disable cam2api, just open termux and type
 ```gcamoff```
 
+Found an error or got a problem? Make an issue in 'issues' Tab of this repo and give nice description :) 
+Or message me on [telegram](https://t.me/SuperCosmicBeing)
+
 Once again, thanks again to TogoFire for this idea ;p
