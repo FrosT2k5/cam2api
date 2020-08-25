@@ -16,6 +16,9 @@ Usage:
 
 5.```su -c bash install.sh```
 
+If the above command gives u an output like '/system/bin/sh: bash: inaccessible or not found' then do:
+
+```su -c sh install.sh```
 
 Once this installation is complete,u can use the commands ```gcamon``` and ```gcamoff``` anytime you want
 
