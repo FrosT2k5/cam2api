@@ -1,6 +1,7 @@
 This script is used to enable and disable cam2api without rebooting your phone
 
-Tested and working on : Redmi 6 pro (sakura)
+Tested and working on : Redmi 6 pro (sakura), Mi A2 lite(Daisy) 
+
 
 Inspired from TogoFire's Hal3/Hal1 switch . Check him out here - [TogoFire](https://github.com/TogoFire) 
 
