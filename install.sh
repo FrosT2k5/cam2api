@@ -22,8 +22,8 @@ if [ $OS = "ANDROID" ]; then
 	echo "Done"
 
 	echo "Setting up files"
-	mv $CUD/files/gcamon $BINDIR/
-	mv $CUD/files/gcamoff $BINDIR/
+	cp $CUD/files/gcamon $BINDIR/
+	cp $CUD/files/gcamoff $BINDIR/
 	sleep 0.5
 	echo "Done"
 
