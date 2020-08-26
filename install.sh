@@ -8,8 +8,7 @@ fi
 
 BINDIR="${PREFIX}/bin"
 CUD=`pwd`
-whoi=`ls -la /data/data/com.termux/files/usr/bin/pkg | cut -b 14-20`
-echo $whoi
+whoi=`ls -la $BINDIR/termux-info | cut -b 14-20`
 
 if [ -e $BINDIR/termux-info ]; then
 	OS=ANDROID
