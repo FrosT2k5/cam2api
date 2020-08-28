@@ -7,7 +7,7 @@ Inspired from TogoFire's Hal3/Hal1 switch . Check him out here - [TogoFire](http
 
 Usage:
 
-1.get root access(obviously lol)
+1.get root access(obviously lol) and download and enter these commands in termux:
 
 2.```pkg update && pkg install git```
 
