@@ -44,7 +44,7 @@ if [ $OS = "ANDROID" ]; then
 	echo "To enable cam2api, enter gcamon"
 	echo "To disable cam2api, enter gcamoff\n"
 	echo "No need to reboot between enabling and disabling cam2api using this scripts"
-	echo "Script By Yash Patil\(FrosT\) Have fun :\)"
+	echo "Script By Yash Patil(FrosT) Have fun :)"
 
 else
 	echo "Unknown system, this script is meant to be used in termux"
