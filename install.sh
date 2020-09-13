@@ -40,9 +40,11 @@ if [ $OS = "ANDROID" ]; then
 	echo "Done"
 	sleep 0.5
 	
-	echo "You are now ready to use the gcamoff/gcamon script\n"
+	echo "You are now ready to use the gcamoff/gcamon script"
+	echo ""
 	echo "To enable cam2api, enter gcamon"
-	echo "To disable cam2api, enter gcamoff\n"
+	echo "To disable cam2api, enter gcamoff"
+	echo "" 
 	echo "No need to reboot between enabling and disabling cam2api using this scripts"
 	echo "Script By Yash Patil(FrosT) Have fun :)"
 
