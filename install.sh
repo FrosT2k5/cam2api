@@ -21,14 +21,14 @@ if [ $OS = "ANDROID" ]; then
 	echo "Getting root access now"
 	su -c setprop camera.support 1
 	sleep 1
-	echo "Done\n"
+	echo "Done"
 	sleep 0.5
 
 	echo "Setting up files"
 	cp $CUD/files/gcamon $BINDIR/
 	cp $CUD/files/gcamoff $BINDIR/
 	sleep 0.5
-	echo "Done\n"
+	echo "Done"
 	sleep 0.5
 
 	echo "Setting up permissions"
