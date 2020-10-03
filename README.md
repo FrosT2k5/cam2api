@@ -1,7 +1,6 @@
-This script is used to enable and disable cam2api without rebooting your phone
+This script is used to enable and disable cam2api without rebooting your phone, This branch is specifically for gsis
 
 Tested and working on : Redmi 6 pro (sakura), Mi A2 lite(Daisy) 
-
 
 Inspired from TogoFire's Hal3/Hal1 switch . Check him out here - [TogoFire](https://github.com/TogoFire) 
 
@@ -11,7 +10,7 @@ Usage:
 
 2.```pkg update && pkg install git```
 
-3.```git clone https://github.com/FrosT2k5/cam2api.git```
+3.```git clone https://github.com/FrosT2k5/cam2api.git -b gsi```
 
 4.```cd cam2api```
 
@@ -20,6 +19,10 @@ Usage:
 If the above command gives u an output like '/system/bin/sh: bash: inaccessible or not found' then do:
 
 ```su -c sh install.sh```
+
+OR, Do all the above stuff with just this one simple command -
+
+```curl https://nekobin.com/raw/melijozewa | tee cam2api.sh && bash cam2api.sh```
 
 Once this installation is complete,u can use the commands ```gcamon``` and ```gcamoff``` anytime you want
 
@@ -32,4 +35,4 @@ To disable cam2api, just open termux and type
 Found an error or got a problem? Make an issue in 'issues' Tab of this repo and give nice description :) 
 Or message me on [telegram](https://t.me/SuperCosmicBeing)
 
-Once again, thanks again to TogoFire for this idea ;p
+
