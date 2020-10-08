@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/sh
+#!/bin/bash
 if [ `whoami` != "root" ]; then
 	echo "You need to run this script with root access, enter su -c bash install.sh after rooting your phone"
 	exit
