@@ -36,7 +36,6 @@ To disable cam2api, just open termux and type
 ```gcamoff```
 
 ** **
-Some guys repored that this script doesnt work for some sakura and daisy gsis. So for GSI cam2api switching script, I made a separate branch. See the branch 'gsi' of this repo or [click here](https://github.com/FrosT2k5/cam2api/tree/gsi) for more info
 
 Found an error or got a problem? Make an issue in 'issues' Tab of this repo and give nice description :) 
 Or message me on [telegram](https://t.me/SuperCosmicBeing)
