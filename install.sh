@@ -9,7 +9,7 @@ NC="\033[0m" # reset color
 
 
 if [ `whoami` != "root" ]; then
-	echo -e "${RED}You need to run this script with root access, enter su -c bash install.sh after rooting your phone${NC}"
+	echo -e "${RED}You need to run this script with root access, enter${NC}${BLUE} su -c bash install.sh${NC}${RED} after rooting your phone${NC}"
 	exit
 else
 	echo -e "${GREEN}You are rooted, Yay! the script can continue${NC}"
