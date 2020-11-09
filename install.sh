@@ -18,7 +18,6 @@ fi
 
 BINDIR="${PREFIX}/bin"
 CUD=`pwd`
-whoi=`ls -la $BINDIR/termux-info | cut -b 14-20`
 
 if [ -e $BINDIR/termux-info ]; then
 	OS=ANDROID
@@ -27,6 +26,7 @@ else
 fi
 
 if [ $OS = "ANDROID" ]; then
+	whoi=`ls -la $BINDIR/termux-info | cut -b 14-20`
 	echo -e "${GREEN}Installing the gcamon/gcamoff module now${NC}"
 	echo -e "${YELLOW}Getting root access now${NC}"
 	su -c setprop camera.support 1
