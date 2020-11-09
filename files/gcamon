@@ -1,5 +1,9 @@
 #!/system/bin/sh
 
+RED="\033[1;31m" # For errors / warnings
+GREEN="\033[1;32m" # For info
+NC="\033[0m" # reset color
+
 who=`su -c whoami`
 if [ "$who" != "root" ]; then
         root=no
@@ -13,8 +17,8 @@ if [ "$root" = "yes" ]; then
         su -c stop cameraserver
         su -c start vendor.camera-provider-2-4
         su -c start cameraserver
-	echo "done"
+	echo -e "${GREEN}done${NC}"
 else
-        echo "Root access not found"
+        echo -e "${RED}Root access not found${NC}"
 	exit
 fi
