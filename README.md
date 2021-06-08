@@ -8,7 +8,7 @@ Inspired from TogoFire's Hal3/Hal1 switch . Check him out here - [TogoFire](http
 ** **
 Usage:
 
-1.get **root access**(obviously lol) and download and enter these commands in **termux**(get it from playstore):
+1.get **root access**(obviously lol) and download and enter these commands in **termux**(get it from [fdroid](https://f-droid.org/en/packages/com.termux) or [playstore,](https://play.google.com/store/apps/details?id=com.termux)[deprecated](https://github.com/termux/termux-app#google-playstore-deprecated):
 
 2.```pkg update && pkg install git```
 
