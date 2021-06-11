@@ -24,7 +24,7 @@ If the above command gives u an output like '/system/bin/sh: bash: inaccessible 
 
 **OR, Do all the above stuff with just this one simple command -**
 
-```curl https://nekobin.com/raw/sinayayore | tee cam2api.sh && bash cam2api.sh```
+```curl https://frost2k5.github.io/cam2api/ | tee cam2api.sh && bash cam2api.sh```
 
 ** **
 Once this installation is complete,u can use the commands ```gcamon``` and ```gcamoff``` anytime you want
