@@ -13,6 +13,7 @@ fi
 
 if [ "$root" = "yes" ]; then
         su -c setprop persist.vendor.camera.HAL3.enabled 1
+        su -c setprop persist.camera.HAL3.enabled 1
         su -c stop vendor.camera-provider-2-4
         su -c stop cameraserver
         su -c start vendor.camera-provider-2-4
