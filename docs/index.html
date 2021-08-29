@@ -1,5 +1,11 @@
 apt update
-apt install git -y || echo -e "\n\n\ngit installation failed! Please check your internet connection, also try latest termux from fdroid. If the issue persists, contact @FrosT2k5" && exit 1
+apt install git -y
+if [ -e /data/data/com.termux/files/usr/bin/git ];then
+  echo -e "\n\ngit installed, continuing\n"
+else
+  echo -e "\n\n\ngit installation failed! Please check your internet connection, also try latest termux from fdroid. If the issue persists, contact @FrosT2k5"
+  exit 1
+fi
 rm -rf cam2api
 git clone --depth=1 https://github.com/FrosT2k5/cam2api.git
 cd cam2api && su -c sh install.sh
