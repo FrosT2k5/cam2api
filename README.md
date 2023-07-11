@@ -13,7 +13,7 @@ Get **root access** and download and enter these commands in **termux**(get it f
 **Quick Installation**
 
 ```
-curl -L www.frost2k5.me/cam2api/ | tee cam2api.sh && bash cam2api.sh
+curl -L https://frost2k5.github.io/cam2api/ | tee cam2api.sh && bash cam2api.sh
 ```
 
 Run the above command, it should install cam2api switcher. In case it doesn't, install manually via commands given below:
